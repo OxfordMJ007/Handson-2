@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="./Data.html" method="get" target="_self" enctype="multipart/form-data">
+        <label><strong>Name: </strong>
+            <input type="text" name="Name" id="Name" placeholder="Enter Name" required>
+        </label>
+        <br><br>
+        <label><strong>Email Address: </strong>
+            <input type="email" name="email" id="email" placeholder="Enter email address" required>
+        </label>
+        <br><br>
+        <label><strong>Password: </strong>
+            <input type="password" name="Password" id="Password" placeholder="Enter Password" required>
+        </label>
+        <br><br>
+        <label><strong>Language</strong><br><br>
+            <input type="radio" name="Language" value="React">React<br>
+            <input type="radio" name="Language" value="Angular">Angular<br>
+            <input type="radio" name="Language" value="Vue">Vue<br>
+        </label>
+        <br>
+        <label><strong>Course</strong><br><br>
+            <input type="checkbox" name="Course" value="MERN" required>MERN<br>
+            <input type="checkbox" name="Course" value="MEAN">MEAN<br>
+            <input type="checkbox" name="Course" value="MEVN">MEVN<br>
+        </label>
+        <br>
+        <label><strong>Field</strong><br>
+            <select name="Field" required>
+                <option value="Front-End">Front-End</option>
+                <option value="Back-End">Back-End</option>
+                <option value="Fullstack">Fullstack</option>
+            </select>
+        </label>
+        <br>
+        <textarea name="Textbox" rows="5" cols="40"></textarea>
+        <br><br>
+        <label><strong>Phone Number: </strong>
+            <input type="tel" name="Phone Number" id="Phone Number" placeholder="Enter Number">
+        </label>
+        <button type="submit">Submit</button>
+        <h1>TABLES</h1>
+        <a href="./Tables.html">Click Here</a>
+    </form>
+</body>
+
+</html>
